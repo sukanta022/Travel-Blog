@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #304352, #d7d2cc);
+}
+
+.head{
+    position: fixed;
+    background-color: rgb(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    z-index: 100;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}
+
+.nav_logo{
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #fff;
+    
+}
+.nav{
+    display: flex;
+    gap: 50px;
+}
+.menu{
+    font-size: 1.15rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+
+
