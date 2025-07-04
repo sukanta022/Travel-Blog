@@ -5,7 +5,7 @@
 }
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #304352, #d7d2cc);
+    background-image: linear-gradient(to right, #304352, #d7d2cc);
 }
 
 .head{
@@ -49,7 +49,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    
+    margin-bottom: 15px;
 }
 
 .cover-head{
@@ -63,6 +63,38 @@ body{
     color: #fff;
     font-size: 1.2rem;
     font-weight: 900;
+}
+
+.blog-write{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-head{
+    background-image: linear-gradient(to right,#387551, #369797,#3b547d);
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+.blog-title{
+    margin-bottom: 10px;
+}
+
+.blog-describe{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.blog-learn-more{
+    background-image: linear-gradient(to right,#387551, #369797,#3b547d);
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px;
 }
 
 
