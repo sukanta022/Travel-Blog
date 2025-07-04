@@ -75,10 +75,11 @@ body{
 }
 
 .blog-head{
-    background-image: linear-gradient(to right,#387551, #369797,#3b547d);
+    background-image: radial-gradient(circle,rgb(50, 80, 128) 0%, rgba(50, 101, 110, 1) 100%, rgba(39, 150, 150, 0.36) 68%);
     width: 100%;
     padding: 2px;
     margin-bottom: 15px;
+    
 }
 .blog-title{
     margin-bottom: 10px;
@@ -90,11 +91,13 @@ body{
 }
 
 .blog-learn-more{
-    background-image: linear-gradient(to right,#387551, #369797,#3b547d);
+    background-image: radial-gradient(circle,rgb(50, 80, 128) 0%, rgba(50, 101, 110, 1) 100%, rgba(39, 150, 150, 0.36) 68%);
     text-decoration: none;
     margin-top: 10px;
     margin-left: 10px;
     padding: 8px;
+    border-radius: 20px;
+    color: #000;
 }
 
 
