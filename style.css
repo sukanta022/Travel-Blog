@@ -171,3 +171,7 @@ body{
 .place-name{
     font-size: 20px;
 }
+
+.place-card:hover{
+    opacity: 1;
+}
