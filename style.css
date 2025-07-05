@@ -176,34 +176,45 @@ body{
     opacity: 1;
 }
 
+
 .Travel-require{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     margin-top: 10px;
-    
-
 }
 .Travel-require-head{
     background-image: radial-gradient(circle,rgb(50, 80, 128) 0%, rgba(50, 101, 110, 1) 100%, rgba(39, 150, 150, 0.36) 68%);
     width: 100%;
     text-align: center;
 }
+.contain-list-video{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: auto;;
+    border: 1px solid black;
+}
 .list-contain{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     width: 60%;
     font-size: 2rem;
     margin: 40px;
 }
 .list ol {
-  list-style-type: decimal; /* ensures 1, 2, 3, etc. */
-  padding-left: 40px;       /* add space for numbers */
-  margin: 10px 0;
+  list-style-type: decimal; 
 }
 .list ul {
-  list-style-type: disc;   /* default bullet style */
-  padding-left: 40px;      /* ensures bullets are visible */
-  margin: 10px 0;
+  list-style-type: disc;  
+}
+
+.video-contain{
+    width: 400px;
+    height: 197px;
+    margin: 35px;
 }
