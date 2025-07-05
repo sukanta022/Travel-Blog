@@ -175,3 +175,35 @@ body{
 .place-card:hover{
     opacity: 1;
 }
+
+.Travel-require{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    
+
+}
+.Travel-require-head{
+    background-image: radial-gradient(circle,rgb(50, 80, 128) 0%, rgba(50, 101, 110, 1) 100%, rgba(39, 150, 150, 0.36) 68%);
+    width: 100%;
+    text-align: center;
+}
+.list-contain{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    font-size: 2rem;
+    margin: 40px;
+}
+.list ol {
+  list-style-type: decimal; /* ensures 1, 2, 3, etc. */
+  padding-left: 40px;       /* add space for numbers */
+  margin: 10px 0;
+}
+.list ul {
+  list-style-type: disc;   /* default bullet style */
+  padding-left: 40px;      /* ensures bullets are visible */
+  margin: 10px 0;
+}
