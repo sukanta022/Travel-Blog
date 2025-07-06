@@ -20,13 +20,16 @@ body{
     z-index: 100;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    
 }
 
 .nav_logo{
     font-size: 1.6rem;
     font-weight: 900;
-    color: #fff;
-    
+    color: #c5b4a2;
+}
+span{
+    color: #b6a089;
 }
 .nav{
     display: flex;
@@ -37,6 +40,12 @@ body{
     list-style: none;
     display: inline;
     margin-right: 50px;
+}
+.nav a:hover{
+    background-color: #b6a089;
+    padding: 10px;
+    border-radius: 20px;
+    color: #1e262c;
 }
 @media (max-width: 550px) {
   .head{
