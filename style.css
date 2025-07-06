@@ -9,6 +9,7 @@ body{
 }
 
 .head{
+    position: fixed;
     background-color: rgb(0,0,0,0.1);
     display: flex;
     align-items: center;
@@ -17,8 +18,9 @@ body{
     font-family: Arial, sans-serif;
     width: 100%;
     z-index: 100;
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    z-index: 100;
 }
 
 .nav_logo{
@@ -122,6 +124,7 @@ body{
     border-image: radial-gradient(circle,rgb(50, 80, 128) 0%, rgba(50, 101, 110, 1) 100%, rgba(39, 150, 150, 0.36) 68%);
     border-image-slice: 1;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
 }
 
 .visit-place-head{
@@ -211,6 +214,7 @@ body{
 }
 .list ul {
   list-style-type: disc;  
+  padding-left: 20px;
 }
 
 .video-contain{
